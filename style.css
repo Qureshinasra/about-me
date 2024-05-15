@@ -5,42 +5,77 @@ body{
 .text{
     background-color: rgb(56, 240, 240);
     border-radius: 20px;
-    width: 650px;
-    height: 350px;
+    width: 580px;
+    height: 280px;
     position: relative;
 }
 .cricket{
-    background-image: url(assets/images.jpg);
-    height: 150px;
-    width: 200px;
     position: absolute;
     top: 10px;
     left: 20px;
 }
 .hocky{
-    background-image: url(assets/img.png);
-    height: 150px;
-    width: 200px;
     position: absolute;
     top: 10px;
-    left:230px;
+    left:200px;
 }
 .football{
-    background-image: url(assets/p.png);
-    height: 150px;
-    width: 200px;
     position: absolute;
     top: 10px;
-    left: 445px;
+    left: 400px;
 }
 .tenis{
-    background-image: url(assets/n.jpg);
-    height: 150px;
-    width: 200px;
     position: absolute;
-    top: 180px;
-    left: 230px;
+    top: 150px;
+    left: 200px;
 
+}
+.parantive{
+    position: absolute;
+    top: 150px;
+    width: 300px;
+    right: 350px;
+
+}
+.git-hub{
+    position: fixed;
+    top: 120px;
+    right: 100px;
+}
+.twitter{
+    position: fixed;
+    top: 230px;
+    right: 100px;
+}
+.telegram{
+    position: fixed;
+    top: 350px;
+    right: 100px;
+}
+.html{
+    position: absolute;
+    top: 430px;
+    left: 20px;
+}
+.css{
+    position: absolute;
+    top: 430px;
+    left: 250px;
+}
+.jave{
+    position: absolute;
+    top: 450px;
+    left: 430px;
+}
+.c{
+    position: absolute;
+    top: 430px;
+    right: 300px;
+}
+.python{
+    position: absolute;
+    top: 500px;
+    left:40px
 }
 
 
