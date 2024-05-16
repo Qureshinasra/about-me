@@ -17,11 +17,11 @@
     text-align: center;
 }
 .item1{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
 
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .flex-container{
     display: flex;
@@ -47,12 +47,33 @@
     text-align: center;
     margin: 20px;
 }
-.psu-test::first-letter{
-    color: turquoise;
+.grid::first-letter{
+    color: aqua;
     font-size: 100px;
     text-transform: capitalize;
+    text-align: center;
 }
-.text-media{
-    font-size: 100px;
+.test-media{
+    font-size: 50px;
 }  
+@media only screen and (max-width:600px) {
+    .test-media{
+        font-size:50px
+    }
+    .grid::first-letter{
+        color: brown;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+@media only screen and(min-width:600px) {
+    .grid::first-letter{
+        color: cornflowerblue;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+
+
+
     
